@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://aelmasry2000.github.io/AIIIFf/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in aelmasry2000/AIIIFf project"
+        ]
+    },
+    "items": []
+}
