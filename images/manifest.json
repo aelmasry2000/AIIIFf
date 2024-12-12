@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "manuscript_page_27"
+                ]
+            },
+            "height": 1354,
+            "width": 1561,
+            "items": [
+                {
+                    "id": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 49,
+                                                "height": 43
+                                            },
+                                            {
+                                                "width": 98,
+                                                "height": 85
+                                            },
+                                            {
+                                                "width": 196,
+                                                "height": 170
+                                            },
+                                            {
+                                                "width": 391,
+                                                "height": 339
+                                            },
+                                            {
+                                                "width": 781,
+                                                "height": 677
+                                            },
+                                            {
+                                                "width": 1561,
+                                                "height": 1354
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1561,
+                                        "@id": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1354,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://aelmasry2000.github.io/AIIIFf/images/manuscript_page_27/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://aelmasry2000.github.io/AIIIFf/images/Cover-Sirat-Gibran/canvas/",
             "type": "Canvas",
             "label": {
