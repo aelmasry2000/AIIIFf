@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 72,
+    "height" : 48
+  }, {
+    "width" : 144,
+    "height" : 96
+  }, {
+    "width" : 288,
+    "height" : 192
+  }, {
+    "width" : 575,
+    "height" : 384
+  }, {
+    "width" : 1150,
+    "height" : 767
+  }, {
+    "width" : 2300,
+    "height" : 1533
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2300,
+  "@id" : "https://aelmasry2000.github.io/AIIIFf/images/FF_Deumens-full-crop",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1533
+}
