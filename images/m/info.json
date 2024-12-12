@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 13,
+    "height" : 23
+  }, {
+    "width" : 26,
+    "height" : 45
+  }, {
+    "width" : 52,
+    "height" : 89
+  }, {
+    "width" : 103,
+    "height" : 177
+  }, {
+    "width" : 205,
+    "height" : 354
+  }, {
+    "width" : 410,
+    "height" : 707
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 410,
+  "@id" : "https://aelmasry2000.github.io/AIIIFf/images/m",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 707
+}
