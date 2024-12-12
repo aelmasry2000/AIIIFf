@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 5,
+    "height" : 7
+  }, {
+    "width" : 9,
+    "height" : 13
+  }, {
+    "width" : 18,
+    "height" : 25
+  }, {
+    "width" : 36,
+    "height" : 50
+  }, {
+    "width" : 71,
+    "height" : 100
+  }, {
+    "width" : 141,
+    "height" : 199
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 141,
+  "@id" : "https://aelmasry2000.github.io/AIIIFf/images/Cover-Sirat-Gibran",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 199
+}
