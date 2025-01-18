@@ -8,9 +8,30 @@
       "motivation": "sc:painting",
       "resource": {
         "@type": "cnt:ContentAsText",
-        "chars": "Sample searchable text"
+        "chars": "مخطوطات مجهولة"
       },
-      "on": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json#xywh=10,10,100,100"
+      "on": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json#xywh=10,10,500,500"
+    },
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "نصوص عربية قديمة"
+      },
+      "on": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json#xywh=20,20,600,600"
+    }
+  ],
+  "hits": [
+    {
+      "match": "مخطوطات",
+      "before": "",
+      "after": " مجهولة"
+    },
+    {
+      "match": "نصوص",
+      "before": "",
+      "after": " عربية قديمة"
     }
   ]
 }
