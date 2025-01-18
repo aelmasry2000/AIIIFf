@@ -3,6 +3,10 @@
   "@id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
   "@type": "sc:Manifest",
   "label": "Sample Manuscript",
+  "service": {
+    "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
+    "@type": "search:Service"
+  },
   "sequences": [
     {
       "@type": "sc:Sequence",
@@ -31,10 +35,4 @@
       ]
     }
   ]
-}
-{
-  "service": {
-    "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
-    "@type": "search:Service"
-  }
 }
