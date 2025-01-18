@@ -32,3 +32,9 @@
     }
   ]
 }
+{
+  "service": {
+    "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
+    "@type": "search:Service"
+  }
+}
