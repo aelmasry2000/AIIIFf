@@ -1,0 +1,16 @@
+{
+  "@context": "http://iiif.io/api/search/1/context.json",
+  "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
+  "@type": "search:Service",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sample searchable text"
+      },
+      "on": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json#xywh=10,10,100,100"
+    }
+  ]
+}
