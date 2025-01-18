@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
+  "@type": "sc:Manifest",
+  "label": "Sample Manuscript",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 3000,
+          "width": 2000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
+              "resource": {
+                "@id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
