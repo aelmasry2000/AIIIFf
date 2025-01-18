@@ -1,61 +1,80 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
-  "@type": "sc:Manifest",
-  "label": "Sample Manuscript",
-  "service": {
-    "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
-    "@type": "search:Service"
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ "Sample Manuscript" ]
   },
-  "metadata": [
+  "service": [
     {
-      "label": "Keywords",
-      "value": "مخطوطات مجهولة"
+      "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
+      "@type": "search:Service"
     }
   ],
-  "sequences": [
+  "metadata": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "label": { "en": [ "Keywords" ] },
+      "value": { "ar": [ "مخطوطات مجهولة" ] }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [ "Page 1" ]
+      },
+      "width": 2000,
+      "height": 3000,
+      "items": [
         {
-          "@id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
-          "@type": "sc:Canvas",
-          "label": "Page 1",
-          "height": 3000,
-          "width": 2000,
-          "images": [
+          "id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg/annotation",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
-              "resource": {
-                "@id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
-                "@type": "dctypes:Image",
+              "id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg",
+                "type": "Image",
                 "format": "image/jpeg",
-                "height": 3000,
-                "width": 2000
-              }
+                "width": 2000,
+                "height": 3000
+              },
+              "target": "https://aelmasry2000.github.io/AIIIFf/images/page1.jpg/canvas"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [ "Page 2" ]
+      },
+      "width": 2000,
+      "height": 3000,
+      "items": [
         {
-          "@id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg",
-          "@type": "sc:Canvas",
-          "label": "Page 2",
-          "height": 3000,
-          "width": 2000,
-          "images": [
+          "id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg/annotation",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg",
-              "resource": {
-                "@id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg",
-                "@type": "dctypes:Image",
+              "id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg",
+                "type": "Image",
                 "format": "image/jpeg",
-                "height": 3000,
-                "width": 2000
-              }
+                "width": 2000,
+                "height": 3000
+              },
+              "target": "https://aelmasry2000.github.io/AIIIFf/images/page2.jpg/canvas"
             }
           ]
         }
