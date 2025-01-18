@@ -7,6 +7,12 @@
     "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
     "@type": "search:Service"
   },
+  "metadata": [
+    {
+      "label": "Keywords",
+      "value": "مخطوطات مجهولة"
+    }
+  ],
   "sequences": [
     {
       "@type": "sc:Sequence",
