@@ -1,94 +1,98 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Sample Manuscript"
-    ]
-  },
-  "service": [
-    {
-      "@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
-      "@type": "search:Service"
-    }
-  ],
-  "metadata": [
-    {
-      "label": {
-        "en": ["Keywords"]
-      },
-      "value": {
-        "ar": [
-          "مخطوطات مجهولة",
-          "ميخائيل نعيمة",
-          "جبران خليل جبران"
-        ]
-      }
-    }
-  ],
-  "items": [
-    {
-      "id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/canvas",
-      "type": "Canvas",
-      "label": {
-        "en": ["Page 1"]
-      },
-      "width": 2000,
-      "height": 3000,
-      "items": [
-        {
-          "id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/annotation",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/annotation/1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 2000,
-                "height": 3000
-              },
-              "target": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/canvas"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/canvas",
-      "type": "Canvas",
-      "label": {
-        "en": ["Page 2"]
-      },
-      "width": 2000,
-      "height": 3000,
-      "items": [
-        {
-          "id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/annotation",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/annotation/1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 2000,
-                "height": 3000
-              },
-              "target": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/canvas"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+"@context": [
+"http://iiif.io/api/presentation/3/context.json"
+],
+"id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
+"type": "Manifest",
+"label": {
+"en": [
+"Sample Manuscript"
+]
+},
+"service": [
+{
+"@id": "https://aelmasry2000.github.io/AIIIFf/search/example.json",
+"@type": "search:Service"
+}
+],
+"metadata": [
+{
+"label": {
+"en": [
+"Keywords"
+]
+},
+"value": {
+"ar": [
+"مخطوطات مجهولة"
+]
+}
+}
+],
+"items": [
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/canvas",
+"type": "Canvas",
+"label": {
+"en": [
+"Page 1"
+]
+},
+"width": 2000,
+"height": 3000,
+"items": [
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/annotation",
+"type": "AnnotationPage",
+"items": [
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/annotation/1",
+"type": "Annotation",
+"motivation": "painting",
+"body": {
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg",
+"type": "Image",
+"format": "image/jpeg",
+"width": 2000,
+"height": 3000
+},
+"target": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/canvas"
+}
+]
+}
+]
+},
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/canvas",
+"type": "Canvas",
+"label": {
+"en": [
+"Page 2"
+]
+},
+"width": 2000,
+"height": 3000,
+"items": [
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/annotation",
+"type": "AnnotationPage",
+"items": [
+{
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/annotation/1",
+"type": "Annotation",
+"motivation": "painting",
+"body": {
+"id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg",
+"type": "Image",
+"format": "image/jpeg",
+"width": 2000,
+"height": 3000
+},
+"target": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/canvas"
+}
+]
+}
+]
+}
+]
 }
