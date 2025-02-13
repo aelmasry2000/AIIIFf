@@ -5,7 +5,9 @@
   "id": "https://aelmasry2000.github.io/AIIIFf/manifests/example.json",
   "type": "Manifest",
   "label": {
-    "en": [ "Sample Manuscript" ]
+    "en": [
+      "Sample Manuscript"
+    ]
   },
   "service": [
     {
@@ -15,8 +17,28 @@
   ],
   "metadata": [
     {
-      "label": { "en": [ "Keywords" ] },
-      "value": { "ar": [ "مخطوطات مجهولة" ] }
+      "label": {
+        "en": ["Keywords"]
+      },
+      "value": {
+        "ar": ["مخطوطات مجهولة"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Author"]
+      },
+      "value": {
+        "ar": ["جبران خليل جبران"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Title"]
+      },
+      "value": {
+        "ar": ["ميخائيل نعيمة"]
+      }
     }
   ],
   "items": [
@@ -24,7 +46,7 @@
       "id": "https://aelmasry2000.github.io/AIIIFf/images/makh.jpg/canvas",
       "type": "Canvas",
       "label": {
-        "en": [ "Page 1" ]
+        "en": ["Page 1"]
       },
       "width": 2000,
       "height": 3000,
@@ -54,7 +76,7 @@
       "id": "https://aelmasry2000.github.io/AIIIFf/images/makh2.jpg/canvas",
       "type": "Canvas",
       "label": {
-        "en": [ "Page 2" ]
+        "en": ["Page 2"]
       },
       "width": 2000,
       "height": 3000,
